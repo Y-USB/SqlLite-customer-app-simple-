@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".see_more">
+<ScrollView
+    android:id="@+id/scrollViewInformation"
+    android:layout_alignParentTop="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Adı:"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:id="@+id/txtname"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Soyadı:"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:id="@+id/txtsurname"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Atasının adı:"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:id="@+id/txtfathername"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Yaşı:"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:id="@+id/txtage"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Cinsi:"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:id="@+id/txtgender"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Təhsili:"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:id="@+id/txteducation"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Əlaqə nömrəsi:"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:id="@+id/txtnumber"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+    <ScrollView
+        android:visibility="gone"
+        android:id="@+id/scrollViewUpdate"
+        android:layout_below="@id/img"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginBottom="30dp"
+            android:padding="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtUpdateName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv1"
+                android:background="@drawable/edittextdesign"
+                android:hint="adı"
+                android:inputType="text"
+                android:padding="10dp"
+                android:maxLength="15"
+                android:cursorVisible="true"
+                android:textColor="@android:color/background_light"
+                android:textColorHint="@android:color/background_light" />
+            <EditText
+                android:layout_marginTop="5dp"
+                android:hint="soyadı"
+                android:background="@drawable/edittextdesign"
+                android:id="@+id/edtUpdateSurname"
+                android:inputType="text"
+                android:padding="10dp"
+                android:maxLength="15"
+                android:textColor="@android:color/background_light"
+                android:textColorHint="@android:color/background_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_marginTop="5dp"
+                android:hint="ata adı"
+                android:background="@drawable/edittextdesign"
+                android:padding="10dp"
+                android:id="@+id/edtUpdateFather"
+                android:inputType="text"
+                android:maxLength="15"
+                android:textColor="@android:color/background_light"
+                android:textColorHint="@android:color/background_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:hint="yaşı"
+                android:padding="10dp"
+                android:background="@drawable/edittextdesign"
+                android:id="@+id/edtUpdateAge"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textColor="@android:color/background_light"
+                android:textColorHint="@android:color/background_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="cinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:entries="@array/gender"
+                android:id="@+id/spin_genderUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="təhsili"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:entries="@array/education"
+                android:id="@+id/spin_educationUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:id="@+id/spin_operatorUpdate"
+                    android:entries="@array/operatorlar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </Spinner>
+                <EditText
+                    android:id="@+id/edtUpdateNumber"
+                    android:hint="nömrə"
+                    android:maxLength="7"
+                    android:padding="10dp"
+                    android:inputType="number"
+                    android:textColorHint="@android:color/background_light"
+                    android:textColor="@android:color/background_light"
+                    android:background="@drawable/edittextdesign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/btnDelete"
+        android:id="@+id/txtUpdateCustomer"
+        android:layout_width="match_parent"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="məlumatları yeniləmək istəyirsiniz?"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btnselector"
+        android:text="müştərini sil"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/background_light" />
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btnselector"
+        android:text="məlumatları yenilə"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>

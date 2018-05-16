@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">müştəri</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registration">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string-array name="operatorlar">
+        <item>077</item>
+        <item>070</item>
+        <item>055</item>
+        <item>070</item>
+        <item>050</item>
+        <item>051</item>
+        <item>012</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>qadın</item>
+        <item>kişi</item>
+    </string-array>
+
+    <string-array name="education">
+        <item>tam orta təhsil</item>
+        <item>ali təhsil</item>
+    </string-array>
+</resources>
