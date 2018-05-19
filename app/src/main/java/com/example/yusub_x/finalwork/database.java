@@ -114,17 +114,6 @@ public class database extends SQLiteOpenHelper {
         db.close();
     }
 
-  /*
-    public int updateUsers(istifadeciler istifadeciler){
-        SQLiteDatabase db = this.getWritableDatabase();
-        ContentValues contentValues = new ContentValues();
-        contentValues.put(COLUMN_USER_NAME,istifadeciler.getAdUser());
-        contentValues.put(COLUMN_USER_SURNAME,istifadeciler.getSoyadUser());
-        int i = db.update(TABLE_NAME,contentValues,COLUMN_ID +" = ?",new String[]{String.valueOf(istifadeciler.getIdUser())});
-        db.close();
-        return i;
-    }
-   */
   public int updateCustomer(model model) {
       SQLiteDatabase db = this.getWritableDatabase();
       ContentValues contentValues = new ContentValues();

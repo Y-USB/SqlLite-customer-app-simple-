@@ -20,7 +20,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     ListView listView;
     CustomListViewAdapter adapter;
-    database db =   db = new database(this);
+    database db = new database(this);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

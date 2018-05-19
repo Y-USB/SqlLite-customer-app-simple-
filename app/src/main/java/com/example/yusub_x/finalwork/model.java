@@ -14,10 +14,6 @@ public class model {
 
     }
 
-    public model(String name,String surname){
-        this.name = name;
-        this.surname = surname;
-    }
 
     public void setFather(String father) {
         this.father = father;

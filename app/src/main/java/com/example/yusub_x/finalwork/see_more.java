@@ -83,6 +83,27 @@ public class see_more extends AppCompatActivity {
             }
         });
 
+        _givenName.setText(rname.getText().toString());
+        _givenSurname.setText(rsurname.getText().toString());
+        _givenFatherName.setText(rfathername.getText().toString());
+        _givenAge.setText(rage.getText().toString());
+
+        if(rgender.getText().toString().equals("qadın")) _givenGender.setSelection(0);
+        else _givenGender.setSelection(1);
+
+        if(reducation.getText().toString().equals("tam orta təhsil")) _givenEducation.setSelection(0);
+        else _givenEducation.setSelection(1);
+
+
+        if(modelGelen.getOperator().equals("077")) _givenOperator.setSelection(0);
+        else if(modelGelen.getOperator().equals("070")) _givenOperator.setSelection(1);
+        else if(modelGelen.getOperator().equals("055")) _givenOperator.setSelection(2);
+        else if(modelGelen.getOperator().equals("050")) _givenOperator.setSelection(3);
+        else if(modelGelen.getOperator().equals("051")) _givenOperator.setSelection(4);
+        else if(modelGelen.getOperator().equals("012")) _givenOperator.setSelection(5);
+
+        _givenNumber.setText(modelGelen.getNumber());
+
         updateCustomer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
